@@ -1,0 +1,61 @@
+int vermelho = 3;
+int amarelo = 4;
+int verde = 5;
+int tempo_intermitente = 1000;
+
+void setup(){
+
+  pinMode (vermelho, OUTPUT);
+  pinMode (amarelo, OUTPUT);
+  pinMode (verde, OUTPUT);
+
+   controlacor(verde, 5000, false);
+   controlacor(amarelo, 3000, false);
+   controlacor(vermelho, 5000, false);
+
+  digitalwrite(amarelo, 1);
+  delay(tempo_intermitente);
+  digitalwrite(amarelo, 0);
+  delay(tempo_intermitente);
+
+  digitalwrite(amarelo, 1);
+  delay(tempo_intermitente);
+  digitalwrite(amarelo, 0);
+  delay(tempo_intermitente);
+
+  digitalwrite(amarelo, 1);
+  delay(tempo_intermitente);
+  digitalwrite(amarelo, 0);
+  delay(tempo_intermitente);
+
+  digitalwrite(amarelo, 1);
+  delay(tempo_intermitente);
+  digitalwrite(amarelo, 0);
+  delay(tempo_intermitente);
+
+}
+void Loop(){
+
+    controlacor(verde, 5000, true);
+    controlacor(amarelo, 3000, true);
+    controlacor(vermelho, 5000, true);
+
+}
+
+int controlador ( int cor, int tempo, bool esta_no_loop){
+    delay(tempo);
+    digitalwrite(cor ,1);
+    delay(tempo);
+    digitalwrite(cor ,0);
+
+    if(esta_no_loop = false){
+        delay(tempo);
+        return 0;
+    }
+    else{
+        return 1;
+    
+    }
+
+
+}

@@ -1,0 +1,14 @@
+C:\BackEnd\Exemplo-aula\aplicacao\bin\Debug\net8.0\aplicacao.exe
+C:\BackEnd\Exemplo-aula\aplicacao\bin\Debug\net8.0\aplicacao.deps.json
+C:\BackEnd\Exemplo-aula\aplicacao\bin\Debug\net8.0\aplicacao.runtimeconfig.json
+C:\BackEnd\Exemplo-aula\aplicacao\bin\Debug\net8.0\aplicacao.dll
+C:\BackEnd\Exemplo-aula\aplicacao\bin\Debug\net8.0\aplicacao.pdb
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.AssemblyInfoInputs.cache
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.AssemblyInfo.cs
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.csproj.CoreCompileInputs.cache
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.dll
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\refint\aplicacao.dll
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.pdb
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\aplicacao.genruntimeconfig.cache
+C:\BackEnd\Exemplo-aula\aplicacao\obj\Debug\net8.0\ref\aplicacao.dll

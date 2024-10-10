@@ -1,0 +1,206 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Ajuste de alinhamento */
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+  padding: 20px; /* Adicionando padding para espaçamento */
+  box-sizing: border-box;
+}
+
+header .header__left {
+  max-width: 62rem;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 50rem;
+}
+
+header .header__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__right .header__image {
+  position: relative;
+  line-height: 0;
+}
+
+.header__right .header__video {
+  position: relative;
+  line-height: 0;
+}
+
+.header__image .foto {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+
+header .header__right .header__image::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.header__imageEx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Garante que o contêiner use a largura total */
+  position: relative; /* Para permitir o uso de 'top' nas imagens */
+}
+
+.header__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Garante que o contêiner use a largura total */
+  position: relative; /* Para permitir o uso de 'top' nas imagens */
+}
+
+.header__video video {
+  width: 100%; /* Imagem usa a largura total do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  max-width: 400px; /* Limita a largura máxima */
+}
+
+.header__imageEx img {
+  width: 100%; /* Imagem usa a largura total do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  max-width: 400px; /* Limita a largura máxima */
+}
+
+/* Videos de automação */
+.header__video video.arduino1 {
+  margin-top: 450px; 
+}
+
+.header__video video.arduino2 {
+  margin-top: 70px; 
+}
+
+.header__video video.arduino3 {
+  margin-top: 70px; 
+}
+.header__video video.arduino4 {
+  margin-top: 70px; 
+}
+
+
+
+/* Imagens Banco de Dados */
+.header__imageEx img.DiferençaDeDados {
+  margin-top: 250px; 
+}
+
+.header__imageEx img.Diagrama {
+  margin-top: 100px; 
+}
+
+.header__imageEx img.Comandos {
+  margin-top: 200px; 
+}
+
+.header__imageEx img.Mongo {
+  margin-top: 300px;
+}
+
+.header__imageEx img.Mongo2 {
+  margin-top: 30px;
+}
+
+.header__imageEx img.DSE {
+  margin-top: 30px;
+}
+
+/* Imagens Linguagem de Programação */
+.header__imageEx img.variaveis{
+  margin-top: 460px;
+}
+
+.header__imageEx img.operadores{
+  margin-top: 0px;
+}
+
+.header__imageEx img.ifelse{
+  margin-top: 60px;
+}
+
+.header__imageEx img.switche{
+  margin-top: 0px;
+}
+
+.header__imageEx img.exercicioif{
+  margin-top: 0px;
+}
+
+.header__imageEx img.classe{
+  margin-top: 350px;
+}
+
+.header__imageEx img.visibilidade{
+  margin-top: 0px;
+}
+
+.header__imageEx img.uml{
+  margin-top: 0px;
+}
+
+/* Imagens de Desenvolvimento Web */
+.header__imageEx img.cadastro{
+  margin-top: 1400px;
+}
+
+.header__imageEx img.todo{
+  margin-top: 100px;
+}
+
+.header__imageEx img.cadastro2{
+  margin-top: 120px;
+}
+
+.header__imageEx img.imc{
+  margin-top: 30px;
+}
+
+.header__imageEx img.calculadora{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left, header .header__right {
+    flex: 1 1 100%; /* Cada coluna ocupa a largura total */
+    padding: 10px;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+
+  .header__imageEx img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    margin-bottom: 10px; /* Reduz o espaçamento entre as imagens em telas menores */
+  }
+}

@@ -1,0 +1,132 @@
+Exercício 01 
+
+int LED = 13;
+
+void setup(){
+  pinMode(LED_BUILTIN, OUTPUT); 
+  Serial.begin(9600);
+}
+
+void loop(){
+  digitalWrite(LED_BUILTIN, HIGH);
+  Serial.println("LED ligado");
+  delay(100);
+  digitalWrite(LED_BUILTIN, LOW); 
+  Serial.println("LED desligado");
+  delay(1000); 
+}
+
+Exercício 02 
+
+int led = 9;
+int brilho = 0;
+int fade = 5;
+void setup(){
+pinMode(led, OUTPUT);
+Serial.begin(9600);
+}
+void loop() {
+analogWrite(led, brilho);
+Serial.println("LED ligado");
+  
+if (brilho == 0) {
+    Serial.println("LED desligado");
+  delay(1000);
+  }
+  
+brilho = brilho + fade;
+if (brilho == 0 || brilho == 255) {
+fade = -fade ;
+}
+delay(30);
+}
+
+
+Exercício 03
+
+int ledVermelho = 8;
+int ledVerde = 9;
+int ledAmarelo = 10;
+String opcao = "";
+
+void setup() {
+    Serial.begin(9600);
+    Serial.println("Inicializando...");
+
+    pinMode(ledVermelho, OUTPUT);
+    pinMode(ledVerde, OUTPUT);
+    pinMode(ledAmarelo, OUTPUT);
+
+    Serial.println("Sistema Pronto!");
+}
+
+void loop() {
+    Serial.println("Pressione R para vermelho");
+    delay(3000);
+    Serial.println("Pressione G para verde");
+    delay(3000);
+    Serial.println("Pressione Y para amarelo");
+    delay(3000);
+
+    if(Serial.available() > 0) {
+        opcao = Serial.readString();
+
+        if(opcao == "R" || opcao == "r") {
+            digitalWrite(ledVermelho, HIGH);
+            digitalWrite(ledVerde, LOW);
+            digitalWrite(ledAmarelo, LOW);
+            Serial.println("LED vermelho ligado");
+        }
+        else if(opcao == "G" || opcao == "g") {
+            digitalWrite(ledVermelho, LOW);
+            digitalWrite(ledVerde, HIGH);
+            digitalWrite(ledAmarelo, LOW);
+            Serial.println("LED verde ligado");
+        }
+        else if(opcao == "Y" || opcao == "y") {
+            digitalWrite(ledVermelho, LOW);
+            digitalWrite(ledVerde, LOW);
+            digitalWrite(ledAmarelo, HIGH);
+            Serial.println("LED amarelo ligado");
+        }
+        else {
+            Serial.println("Opção Inválida");
+        }
+    }
+}
+
+Exercício 06
+
+int pot;
+void setup(){
+Serial.begin(9600);
+}
+
+void loop(){
+  
+pot = analogRead(A0);
+Serial.print("Potenciometro = ");
+Serial.println(pot);
+delay(300);
+}
+
+Exercício 07
+
+int LED = 3;
+int pot;
+
+void setup() {
+    Serial.begin(9600);
+    pinMode(LED, OUTPUT);
+}
+
+void loop() {
+    pot = analogRead(A0);
+    int brilho = map(pot, 0, 1023, 0, 255);
+
+    analogWrite(LED, brilho);
+    Serial.print("Brilho do LED = ");
+    Serial.println(brilho);
+    delay(300);
+}
+

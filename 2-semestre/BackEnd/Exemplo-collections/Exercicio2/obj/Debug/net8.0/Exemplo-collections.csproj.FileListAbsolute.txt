@@ -1,0 +1,4 @@
+C:\BackEnd\Exemplo-collections\obj\Debug\net8.0\Exemplo-collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\BackEnd\Exemplo-collections\obj\Debug\net8.0\Exemplo-collections.AssemblyInfoInputs.cache
+C:\BackEnd\Exemplo-collections\obj\Debug\net8.0\Exemplo-collections.AssemblyInfo.cs
+C:\BackEnd\Exemplo-collections\obj\Debug\net8.0\Exemplo-collections.csproj.CoreCompileInputs.cache

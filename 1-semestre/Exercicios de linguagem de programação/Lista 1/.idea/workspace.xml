@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27a06806-f725-4d65-a906-794aba5adad9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ContaBancaria/ContaBancaria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContaBancaria/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EditorDeArquivosDeTexto/EditorDeArquivosDeTexto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EditorDeArquivosDeTexto/src/Arquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExemplosDoCaina/ExemplosDoCaina.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios_revisao/Exercicios_revisao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios_revisao/matriz1/matriz1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JogoDeLuta/JogoDeLuta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JogoDeLuta/src/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio1/Exercicio1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio2/Exercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio3/Exercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio4/Exercicio4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio5/Exercicio5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio6/Exercicio6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Lista 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo de classe/exemplo de classe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 2/Exercicios-Lista2/Exercicio 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 2/Exercicios-Lista2/Exercicio 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 2/Exercicios-Lista2/Exercicio 5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 2/Exercicios-Lista2/Exercicio 5/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio10/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio10/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio11/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio12/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio12/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio5/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio8/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio9/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio9/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2c6lIBj5f78wNIr94oMFoZsAvkJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Debug",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projetos/Exercicios de linguagem de programação/Lista 2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27a06806-f725-4d65-a906-794aba5adad9" name="Changes" comment="" />
+      <created>1707439828314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707439828314</updated>
+    </task>
+    <servers />
+  </component>
+</project>

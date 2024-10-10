@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title> Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+      <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="">
+          <img src="../assets/Logo.png" alt="logoGabriel" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../index.html#skills">Matérias</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="../assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../index.html#skills">Matérias</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Banco de Dados</h1>
+        <p>
+          Um Banco de dados é um conjunto organizado de diversos dados,
+          servindo como uma ferramenta para armazenar, gerenciar e acessar
+          informações de maneira eficiente e segura.
+        </p>
+        <h2>Estrutura de Dados</h2>
+        <p>
+          Estrutura de dados é uma maneira especifica de organizar e armazenar os dados
+          para que sua manipulação possa ser usada de forma mais agil e eficiente.
+        </p>
+        
+        <h2>Diagrama de Relacionamento</h2>
+        <p>
+          Um diagrama de relacionamento é uma representação visual das conexões entre 
+          as tabelas em um banco de dados, mostrando como elas se relacionam 
+          entre si através de chaves primárias e estrangeiras. <br>
+          Ele serve para visualizar e compreender a estrutura, facilitando a implementaçã
+          e a manutenção do sistema.
+        </p>
+        <p>
+          <h4>PRIMARY KEY</h4> Um valor único e obrigatório que identifica de forma exclusiva cada registro em uma tabela no banco de dados. <br>
+          <br>
+          <h4>FOREIGN KEY</h4> Um campo que refere-se a uma chave primária em outra tabela, estabelecendo um relacionamento entre as duas tabelas. 
+        </p>
+
+        <h2>Comandos</h2>
+        <p>
+          Os comandos em um banco de dados são cruciais para a interação com os dados
+          armazenados. Eles permitem criar, ler, atualizar e excluir dados, alem de 
+          administrar a estrutura do banco e controlar o acesso dos usuários.
+          Abaixo mostrarei exemplos dos comandos mais usados.
+        </p>
+        <h2>Comandos DDL</h2>
+        <p>
+          CREATE TABLE - Criação de tabela <br>
+          ALTER TABLE - Adiciona, altera ou exclui tabelas <br>
+          DROP TABLE - Comando para apagar a tabela
+        </p>
+        <h2>Comandos DML</h2>
+        <p>
+          INSERT - Usado para inserir dados na tabela <br>
+          SELECT - Usado para visualizar a tabela
+        </p>
+        <h2>Comandos DQL</h2>
+        <p>
+          SELECT - Selecione um dado para visualização <br>
+          JOIN - Serve para combinar tabelas
+        </p>
+        <p>
+          Existem diversas combinações de comandos para a visualização necessaria,
+          no meu <a href="https://github.com/GabrielPerosa/Banco-de-Dados/tree/main/pgAdmin">GitHub</a> 
+          tenho diversos exemplos de exercicios usando operadores e parâmetros.
+        </p>
+
+        <h2>Normalização</h2>
+        <p>
+          A normalização é um processo de organização de tabelas em um banco de dados 
+          para reduzir redundâncias, evitar problemas de atualização e garantir a consistência 
+          dos dados, dividindo-os em formas normais. Isso ajuda a melhorar a eficiência e a integridade dos dados armazenados.
+        </p>
+        <h2>Bando de Dados NoSQL</h2>
+        <p>Um banco de dados NoSQL é um sistema de banco de dados que não utiliza o modelo relacional.
+          Ele é projetado para armazenar e processar dados não estruturados ou semiestruturados, oferecendo
+          flexibilidade e escalabilidade horizontal, como por exemplo o MongoDB.
+        </p>
+        <p>
+          NoSQL oferece varias vantagens como permitir distribuir dados por múltiplos servidores, garantindo
+          alta disponibilidade e expansão. <br>
+          Permitem uma flexibilidade de esquema, um alto desempenho para operações rapidas de leitura e escrita,
+          e uma facilidade em seu gerenciamento.
+        </p>
+        <h2>MongoDB</h2>
+        <p>MongoDB é um banco de dados NoSQL orientado a documentos que armazena dados em formato JSON. Suas principais
+          vantagens incluem escalabilidade horizontal e flexibilidade de esquema, ideal para 
+          aplicações que lidam com grandes volumes de dados variados.
+        </p>
+        <h2>Sistema Educacional</h2>
+        <p>
+            O Sistema Educacional foi um projeto bem completo desenvolvido em aula. <br>
+            Nesse projeto foi criado um banco de dados relacional que simula uma universidade, com diversos cursos
+            e disciplinas, e dados dos alunos. <br>
+        </p>
+      </div>
+      <div class="header__right">
+        <div class="header__imageEx">
+          <img src="../assets/DiferençaDeDados.png" alt="img" class="DiferençaDeDados" />
+          <img src="../assets/Diagrama.png" alt="img" class="Diagrama" />
+          <img src="../assets/comandos.png" alt="img" class="Comandos" />
+          <img src="../assets/comandos3.png" alt="img" class="Comandos" />
+          <img src="../assets/Mongo.png" alt="img" class="Mongo" />
+          <img src="../assets/Mongo2.png" alt="img" class="Mongo2" />
+          <img src="../assets/DiagramaSistemaEducacional.jpeg" alt="img" class="DSE" />
+          
+        </div>
+      </div>
+    </header>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Entre em contato</h2>
+        <p class="mb-m">
+          Para ver mais Projetos.
+        </p>
+        <ul class="mb-l">
+          <ul class="mb-l">
+            <li>
+              <a href="https://www.linkedin.com/in/gabriel-perosa-60b88a1b7/">
+                <img src="../assets/linkedin.svg" alt="Linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/GabrielPerosa">
+                <div class="hero-icons"><i class='bx bxl-github'></i>
+              </div>
+              </a>
+            </li>
+          </ul>
+          
+        </ul>
+        
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

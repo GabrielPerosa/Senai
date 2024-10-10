@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title> Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="">
+          <img src="assets/logo.png" alt="logoGabriel" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Matérias</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Matérias</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou Gabriel Perosa</h1>
+        <p>
+          Um estudante de Análise e Desenvolvimento de Sistemas, estou no início da minha jornada na área de tecnologia, entusiasmado com as inúmeras possibilidades que a tecnologia oferece.
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/fotogabriel.jpg" alt="fotoGabriel" class="foto" />
+        </div>
+      </div>
+    </header>
+    
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Para que serve este portfólio? </h2>
+        <p>
+          Este portfólio tem como objetivo apresentar os principais tópicos
+          abordados nas aulas, os projetos que desenvolvi e outros assuntos
+          relevantes estudados ao longo do primeiro semestre.
+        </p>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Análise e Desenvolvimento de Sistemas
+        </h3>
+        <p>
+          O curso de Análise e Desenvolvimento de Sistemas (ADS) é um curso superior 
+          de tecnologia que forma profissionais aptos a desenvolver, analisar, 
+          projetar, implementar e gerenciar sistemas de informação.
+        </p>
+        <p>
+          Os profissionais formados em ADS são altamente demandados no mercado 
+          de trabalho, podendo atuar como desenvolvedores de software, analistas
+          de sistemas, gestores de projetos, entre outros papéis na área de tecnologia da informação.
+        </p>
+      </div>
+    </section>
+
+<!-- habilidades -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Matérias do primeiro semestre</h2>
+        <p class="description">
+          Veja todas as matérias que eu tive.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <a href="desenvolvimentoweb/DW.html">
+                <img src="assets/web.svg" alt="Desenvolvimento Web" />
+              </a>
+            </div>    
+            <h3>Desenvolvimento Web</h3>
+            <p>
+              Aprendi conceitos basicos de HTML, CSS e JavaScript.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <a href="linguagemDeProgramação/LP.html">
+                <img src="assets/coding.png" alt="Linguagem de Programação" />
+              </a>
+            </div>          
+            <h3>Linguagem de Programação</h3>
+            <p>
+              Aprendi os fundamentos de linguagem de programação usando Java.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <a href="bancoDeDados/BD.html">
+                <img src="assets/data.svg" alt="Banco de Dados" />
+              </a>
+            </div>          
+            <h3>Banco de Dados</h3>
+            <p>
+              Aprendi as diferenças dos bancos de dados, suas principais características e como usa-lo.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <a href="cienciaDeDados/CD.html">
+                <img src="assets/grafico.svg" alt="Ciencia de Dados" />
+              </a>
+            </div>
+            <h3>Ciência de Dados</h3>
+            <p>
+              Aprendi a manipular dados com Python.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container" style="text-align: center;">
+              <a href="automaçãoIndustrial/ATM.html">
+                <img src="assets/industrial-robot.svg" alt="Automação Industrial" />
+              </a>
+            </div>
+            <h3>Automação Industrial</h3>
+            <p>
+                Aprendi automação em arduino usando C++
+            </p>
+        </li>
+        </ul>
+      </div>
+    </section> 
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Entre em contato</h2>
+        <p class="mb-m">
+          Para ver mais projetos
+        </p>
+        <ul class="mb-l">
+          <li>
+            <a href="https://www.linkedin.com/in/gabriel-perosa-60b88a1b7/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/GabrielPerosa">
+              <div class="hero-icons"><i class='bx bxl-github'></i>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

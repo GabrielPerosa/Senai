@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do contêiner principal */
+.container {
+    position: relative; /* Define o posicionamento do elemento */
+    display: flex; /* Define o display como flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura para ocupar 100% da altura da viewport */
+    background-color: #f2f2f2; /* Define a cor de fundo */
+}
+
+/* Estilização da caixa de login */
+.Login {
+    position: relative; /* Define o posicionamento do elemento */
+    z-index: 2; /* Define a ordem de empilhamento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    background: linear-gradient(135deg, #ffcb47, #ffaf0f); /* Cria um degradê dourado */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 30px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilização do campo de usuário */
+.usuario, .senha {
+    width: 100%; /* Define a largura como 100% */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+    border: 1px solid #ee0909; /* Define a cor e espessura da borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
+
+/* Estilização dos campos de entrada quando focados */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #ffff06; /* Define a cor da borda quando focado */
+    outline: none; /* Remove o contorno padrão */
+}
+
+/* Estilização do botão de envio */
+input[type="submit"], .enviar {
+    width: 100%; /* Define a largura como 100% */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin-top: 10px; /* Adiciona margem superior */
+    background-color: #010101; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para indicar interatividade */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Estilização do botão de envio quando hover */
+input[type="submit"]:hover, .enviar:hover {
+    background-color: #0056b3; /* Define a cor de fundo ao passar o mouse */
+    color: yellow;
+}
+
+/* Estilização da imagem de fundo */
+.Figura {
+    position: absolute; /* Define o posicionamento absoluto */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100vw; /* Define a largura igual à largura da viewport */
+    height: 100vh; /* Define a altura igual à altura da viewport */
+    z-index: 1; /* Define a ordem de empilhamento */
+}
+
+/* Estilização da imagem de fundo */
+.Figura img {
+    width: 100%; /* Define a largura como 100% */
+    height: 100%; /* Define a altura como 100% */
+    object-fit: cover; /* Redimensiona e corta a imagem para preencher o contêiner */
+    border-radius: 8px;
+}

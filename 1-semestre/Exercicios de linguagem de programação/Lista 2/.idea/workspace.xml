@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91deb91d-460d-4df8-afce-389199e67944" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ContaBancaria/ContaBancaria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContaBancaria/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EditorDeArquivosDeTexto/EditorDeArquivosDeTexto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EditorDeArquivosDeTexto/src/Arquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExemplosDoCaina/ExemplosDoCaina.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios_revisao/Exercicios_revisao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios_revisao/matriz1/matriz1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JogoDeLuta/JogoDeLuta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JogoDeLuta/src/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio1/Exercicio1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio2/Exercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio3/Exercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio4/Exercicio4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio5/Exercicio5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Exercicio6/Exercicio6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lista 5/Lista 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo de classe/exemplo de classe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio04/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio05/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio05/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio12/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio12/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio14/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio14/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio19/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio19/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/Exercicio20/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/Exercicio20/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/out/production/Exercicio01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/out/production/Exercicio01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 1/out/production/Exercicio05/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 1/out/production/Exercicio05/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio10/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio10/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio11/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio12/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio12/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio5/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio8/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 4/Exercicio9/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 4/Exercicio9/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2d3oo8VKRO8fRwD5l94QrSwC0J7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projetos/Exercicios de linguagem de programação/Lista 3"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91deb91d-460d-4df8-afce-389199e67944" name="Changes" comment="" />
+      <created>1709246296215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709246296215</updated>
+    </task>
+    <servers />
+  </component>
+</project>
